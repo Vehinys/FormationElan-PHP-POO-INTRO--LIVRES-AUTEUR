@@ -17,8 +17,6 @@ class Auteur{
     }
 }
 
-$auteur = new Auteur('Stephen','King');
-echo $Auteur;
 
 
 
