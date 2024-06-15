@@ -64,6 +64,6 @@ public function setAuteur(){
 // TO STRING
 
 public function __toString() {
-  return $this-> titre . "(".$this-> anneeParution.") :". $this-> nbPage ."pages /". $this-> prix ."€";
+  return $this-> titre . "(".$this-> anneeParution.") : ". $this-> nbPage ." pages / ". $this-> prix ." €";
 }
 }

@@ -14,7 +14,6 @@ class Auteur {
         $this->dateNaissance = new dateTime($dateNaissance);
     }
 
-
     // GET 
 
     public function getPrenom(){
