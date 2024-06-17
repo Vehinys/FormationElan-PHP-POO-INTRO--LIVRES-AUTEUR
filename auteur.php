@@ -51,7 +51,6 @@ class Auteur {
 
     // SET
 
-
     public function setPrenom(){
                $this->prenom;
     }
