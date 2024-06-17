@@ -15,6 +15,11 @@ public function __construct(string $titre, int $anneeParution, int $nbPage, floa
     $this-> nbPage        = $nbPage;
     $this-> prix          = $prix;
     $this-> auteur        = $auteur;
+    $auteur -> ajouterLivre($this);
+
+
+    // j'ai acces a la class auteur grace a la ligne 17 -> j'ai acces a c'est methode public don la methode ajouté livre. 
+    // je peux appeler la methode ajouter livre pour ajouté le livre en cours de construction ( $this )
   }
 
 // GET 
