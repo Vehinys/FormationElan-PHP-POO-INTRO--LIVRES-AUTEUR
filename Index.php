@@ -18,8 +18,6 @@ $livre4 = new Livre("Shining", 1977, 447, 16.0, $auteur);
 
 // Stocker les livres dans un tableau
 
-$livre = [$livre1, $livre2, $livre3, $livre4];
-
 // Afficher la date de naissance
 
 // echo "Date de naissance: " . $auteur->getDateNaissance();
